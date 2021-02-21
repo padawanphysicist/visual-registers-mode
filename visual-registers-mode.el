@@ -70,6 +70,7 @@
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "C-x r SPC") 'vr/point-to-register)
     map))
+
 ;;;###autoload
 (define-minor-mode visual-registers-mode
   "Visualize your registers in the fringe."
@@ -78,7 +79,7 @@
 (defun turn-on-visual-registers-mode ()
   (visual-registers-mode 1))
 
-(define-globalized-minor-mode global-visual-registers-mode
+(define-global-minor-mode global-visual-registers-mode
   visual-registers-mode turn-on-visual-registers-mode)
 
 (provide 'visual-registers-mode)
