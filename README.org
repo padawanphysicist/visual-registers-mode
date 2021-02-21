@@ -1,0 +1,8 @@
+* visual-registers
+
+=visual-registers= is a simple package providing a minor mode that displays marks in the fringe of the active buffer.
+
+* Requirements
+- [[https://github.com/nschum/fringe-helper.el][fringe-helper.el]]
+
+This package is a naive attempt to implement some functionality of [[https://github.com/Andrew-William-Smith/evil-fringe-mark][evil-fringe-mark]] but without evil-mode.  
