@@ -1,6 +1,6 @@
-* visual-registers
+* visual-registers-mode
 
-=visual-registers= is a simple package providing a minor mode that displays marks in the fringe of the active buffer.
+=visual-registers-mode= is a simple package providing a minor mode that displays marks in the fringe of the active buffer.
 
 * Requirements
 - [[https://github.com/nschum/fringe-helper.el][fringe-helper.el]]

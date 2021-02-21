@@ -1,4 +1,4 @@
-;;; visual-registers.el --- Visualize registers through fringe line
+;;; visual-registers-mode.el --- Visualize registers through fringe line
 
 ;; This file is not part of GNU Emacs.
 
@@ -76,4 +76,4 @@
   :lighter "VReg")
 
 (provide 'visual-registers-mode)
-;;; visual-registers.el ends here
+;;; visual-registers-mode.el ends here
